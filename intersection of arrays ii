@@ -8,7 +8,7 @@ public:
         int j = (int)nums2.size();
        
         int p1 =0, p2 = 0;
-        while(p1>i && p2>j){
+        while(p1<i && p2<j){
             if(nums1.at(p1) == nums2.at(p2)){
                 nums3.push_back(nums1.at(p1));
                 p1++;
